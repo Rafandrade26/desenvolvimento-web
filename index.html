@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio 1</title>
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    <header></header> <!--Isso é o cabeçalho da página-->
-    <main> <!--Conteúdo principal-->
-        <h1><strong>Eleve seu negócio digital a outro nível com um Front-end de qualidade!</strong></h1>
-        <p><div>Olá! Sou Joana Santos, desenvolvedora Front-end</div>
-            <div>com especialidade em React, HTML e CSS.</div>
-            <div>Ajudo pequenos negócios e designers a</div>
-            <div>colocarem em prática boas ideias.</div>
-            <div>Vamos conversar?</div>
-        </p>
-        <!--Agora vamos colocar os botões-->
-        <a href="https://facebook.com/rafa.andrade.3591">Facebook</a>
-        <a href="https://github.com/Rafandrade26">Github</a>
-        <img src="Imagem.png" alt="Foto da programadora">
-        <ol>
-            <li>R</li>
-            <li>A</li>
-            <li>F</li>
-            <li>A</li>
-            <li>E</li>
-            <li>L</li>
-            <li></li>
-            <li>A</li>
-            <li>N</li>
-            <li>D</li>
-            <li>R</li>
-            <li>A</li>
-            <li>D</li>
-            <li>E</li>
-        </ol>
+    <header class="cabecalho">
+        <!-- A tag <nav> é especificamente usada em cabeçalhos para guardar os links excenciais de navegação -->
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Rafael Andrade, desenvolvedor
+            Front-end com especialidade em Python, Java, Javascript, C, C++, HTML e
+            CSS. Ajudo pequenos negócios e designers a
+            colocarem em prática boas ideias. Vamos
+            conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/Rafandrade26">
+                    <img src="./assets/github.png">
+                    Github
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://linkedin.com/in/rafael-andrade-devjr">
+                    <img src="./assets/linkedin.png">
+                    linkedin
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://twitch.tv/guilimadev">
+                    <img src="./assets/twitch.png">
+                    Twitch
+                </a>
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="/assets/imagem.png" alt="Foto da Joana Santos programando">
     </main>
-    
-    <footer>
-        <address>Rua Major Cícero Goés de Monteiro</address>
-    </footer> <!--Rodapé-->
-    
+    <footer class="rodape">
+        Desenvolvido por Rafael Andrade
+    </footer>
 </body>
+
 </html>
